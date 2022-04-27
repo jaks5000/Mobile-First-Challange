@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- displays site properly based on user's device -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css.css" style="border-radius: 50%;"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/image-qr-code.png"> -->
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: hsl(212, 45%, 89%);
+            /* margin: 160px 350px;
+            padding: 25px 210px; */
+        }
+        
+        .koko1 {
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+        
+        .ph {
+            border: 16px solid transparent;
+            display: inline-block;
+            border-radius: 20px;
+            max-width: min-content;
+            background-color: aliceblue;
+        }
+        
+        .sp1 {
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            text-shadow: 0px 1px 11px #0000002b;
+        }
+        
+        .crd {
+            text-align: center;
+            padding-bottom: 15px;
+            font-size: 17px;
+        }
+        
+        .ph img {
+            border-radius: 10px;
+            max-height: 290px;
+        }
+        
+        @media (min-width: 375px) {
+            body {
+                margin: 6px;
+                padding: 200px 20px;
+            }
+            .sp2 {
+                padding: 15px;
+                font-size: 17px;
+                font-weight: 400;
+                position: fixed;
+                margin-top: 80px;
+                margin-inline: 25px;
+            }
+        }
+        
+        @media (max-width: 1440px) {
+            body {
+                margin: 160px 350px;
+                padding: 25px 210px;
+            }
+            .sp2 {
+                font-size: 15px;
+                font-weight: 400;
+                position: fixed;
+                margin-top: 160px;
+                margin-inline: -45px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ph">
+        <img src="https://raw.githubusercontent.com/jaks5000/Mobile-First-Challange/main/image-qr-code.png" alt="Not Found">
+        <span class="sp1">
+        <div class="koko1">
+            Improve your front-end skills by building projects
+        </div>
+        </span>
+        <div class="crd">
+            <span class="koko2" class="attribution">
+                Scan the QR code to visit Frontend
+                Mentor and take your coding skills to the next level
+            </span>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <span class="sp2">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Moe</a>.
+</span>
+</footer>
+
+</html>
